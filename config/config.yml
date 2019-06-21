@@ -1,0 +1,10 @@
+URL: http://www.baidu.com或你自己的项目
+log:
+    file_name: test.log
+    backup: 5
+    console_level: DEBUG
+    file_level: DEBUG
+    pattern: '%(module)s - %(funcName)s - %(lineno)d - %(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+ip: 127.0.0.1
+port: 8080

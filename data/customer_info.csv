@@ -1,0 +1,5 @@
+customername,customerphone,childsex,childdate,creditkids,creditcloth,expectresult
+张三,18112342239,男,2017-12-20,200,50,add-successful
+张二,18112342239,女,2018-11-20,200,50,already-added
+,19812342239,女,2018-11-20,200,50,add-failed
+李四,,女,2018-11-20,200,50,add-failed

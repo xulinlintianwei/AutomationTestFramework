@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>测试报告</title>
+</head>
+<body style="margin-top: 20px; font-family: '微软雅黑';">
+<table border="1" cellspacing="0" cellpadding="5"
+	   width="95%" align="center">
+	<tr bgcolor="bisque" style="font-size: 30px;">
+		<td height="60" colspan="5">蜗牛学院-自动化测试报告: $test-date</td>
+	</tr>
+	<tr style="font-size: 20px;">
+		<td width="20%">被测版本：$test-version</td>
+		<td width="15%">成功：$pass-count 个</td>
+		<td width="15%">失败：$fail-count 个</td>
+		<td width="15%">异常：$error-count 个</td>
+		<td width="35%">最后时间：$last-time</td>
+	</tr>
+</table>
+<p/>
+<table border="1" cellspacing="0" cellpadding="5"
+	   width="95%" align="center">
+	<tr height="40" bgcolor="darkseagreen">
+		<td width="7%">记录编号</td>
+		<td width="9%">所属模块</td>
+		<td width="9%">测试类型</td>
+		<td width="7%">用例编号</td>
+		<td width="20%">用例描述</td>
+		<td width="7%">测试结果</td>
+		<td width="16%">运行时间</td>
+		<td width="15%">错误消息</td>
+		<td width="10%">现场截图</td>
+	</tr>
+	<!-- 此处只需要定义一个变量，用于循环代替即可 -->
+	$test-result
+</table>
+</body>
+</html>
